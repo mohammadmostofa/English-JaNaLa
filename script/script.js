@@ -39,9 +39,9 @@ const displayLevelWord = (words) =>{
                    <div class="flex flex-col justify-center items-center space-y-10 border border-white bg-black  px-10 py-8 rounded-md shadow-lg">
        
           <div class="text-center flex flex-col justify-center items-center space-y-4">
-       <h2 class="text-2xl font-bold poppins-thin">${word.word}</h2>
+       <h2 class="text-xl font-bold poppins-thin">${word.word}</h2>
     <p class="text-white text-[15px] poppins-thin"> ${word.pronunciation} </p>
-      <h3 class="font-semibold text-2xl">${word.meaning} </h3>
+      <h3 class="font-semibold text-[16px] text-nowrap">${word.meaning} </h3>
      </div>
 
 
